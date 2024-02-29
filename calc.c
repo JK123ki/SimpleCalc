@@ -4,7 +4,7 @@
 
 int main() {
     // Declare variables
-    float num1, num2, sum, diff;
+    float num1, num2, sum, diff,mult,div;
 
     // Get user input
     printf("Enter the first number: ");
@@ -16,18 +16,14 @@ int main() {
     // Perform addition and subtraction separately
     sum = num1 + num2;
     diff = num1 - num2;
-
+    mult =  num1 * num2;
+    div =  num1 / num2;
     // Display results
     printf("Sum: %.2f\n", sum);
     printf("Difference: %.2f\n", diff);
-
-    // Perform addition and subtraction at the same time
-    sum = num1 + num2;
-    diff = num1 - num2;
-
-    // Display results
-    printf("Sum and Difference at the same time:\n");
-    printf("Sum: %.2f, Difference: %.2f\n", sum, diff);
+    printf("product:%.2f\n",mult);
+    printf("division:%2f\n",div);
+    
 
     return 0;
 }
